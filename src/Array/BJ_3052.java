@@ -10,6 +10,7 @@ public class BJ_3052 {
         boolean bl; //참거짓 구분
         int count = 0; // 서로 다른 수 count
 
+        //입력한 값에 42로 나눈 나머지 산출
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt() % 42;
         }
