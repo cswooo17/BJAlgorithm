@@ -19,6 +19,7 @@ public class BJ_2562 {
         }
 
         //배열 b를 IntStearm형태로 만든다
+        //IntStream : int 타입의 스트림
         IntStream intStream = Arrays.stream(b);
 
         //OptionalInt에 intStream의 max값을 저장한다
