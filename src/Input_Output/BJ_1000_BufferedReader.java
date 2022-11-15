@@ -9,10 +9,11 @@ public class BJ_1000_BufferedReader {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int a = Integer.parseInt(br.readLine()); //readLine 메소드의 입력값은 String이기 때문에 숫자 입력 시 형변환은 필수이다.
-        int b = Integer.parseInt(br.readLine());
+        String[] str = br.readLine().split(" ");
+        int a = Integer.parseInt(str[0]); //readLine 메소드의 입력값은 String이기 때문에 숫자 입력 시 형변환은 필수이다.
+        int b = Integer.parseInt(str[1]);
 
-        System.out.println(a+b);
+        System.out.println(a + b);
 
     }
 }
